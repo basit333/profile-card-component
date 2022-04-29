@@ -1,0 +1,124 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  background: #19a1ae;
+}
+
+.container--fluid {
+  max-width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.bg--top {
+  position: absolute;
+  top: -625.69px;
+  left: -204.55px;
+  width: 978px;
+  height: 976px;
+}
+
+.bg--bottom {
+  position: absolute;
+  right: -213px;
+  bottom: -584px;
+  width: 978px;
+  height: 976px;
+}
+
+.container {
+  margin: auto;
+}
+
+.container--md {
+  max-width: 350px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 15px;
+  background: #fff;
+  z-index: 1;
+}
+
+.container__top--img img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.container__card {
+  width: 100%;
+}
+
+.card__avtar {
+  display: flex;
+  justify-content: center;
+  margin-top: -50px;
+}
+
+.card__avtar img {
+  border: 5px solid #fff;
+  border-radius: 50%;
+}
+
+.card__person--info {
+  padding: 0 10px;
+  margin: 0 0 25px 0;
+  text-align: center;
+}
+
+.person--info--name {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  color: #2e3349;
+  margin: 24px 0 13px 0;
+}
+
+.person-age {
+  font-weight: 400;
+  color: #6b7082;
+  margin: 0 0 0 8.5px;
+}
+
+.horizontal-line {
+  width: 100%;
+  background: #E8E9EC;
+}
+
+.card__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px 0;
+}
+
+.item--heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #2e3349;
+  margin: 0 0 9px 0;
+}
+
+.item-sub-heading {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  color: #6b7082;
+}
